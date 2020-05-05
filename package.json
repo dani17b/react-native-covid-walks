@@ -1,0 +1,38 @@
+{
+    "name": "react-native-web-starter",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "expo": "^30.0.2",
+        "react": "16.5.1",
+        "react-dom": "^16.5.1",
+        "react-native": "0.62.2",
+        "react-native-web": "^0.11.2"
+    },
+    "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+    "scripts": {
+        "web": "react-scripts start",
+        "build-web": "react-scripts build",
+        "start-expo": "expo start",
+        "start-native": "react-native-scripts start",
+        "eject-native": "react-native-scripts eject",
+        "android": "react-native-scripts android",
+        "run:android": "react-native run android",
+        "ios": "react-native-scripts ios",
+        "test": "echo 'not supported' && exit 1"
+    },
+    "jest": {
+        "preset": "jest-expo"
+    },
+    "devDependencies": {
+        "babel-plugin-react-native-web": "^0.11.2",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-plugin-transform-react-jsx-source": "^6.22.0",
+        "babel-preset-expo": "^4.0.0",
+        "flow-bin": "^0.66.0",
+        "react-art": "16.5.1",
+        "react-native-scripts": "^1.14.0",
+        "react-scripts": "1.1.4",
+        "react-test-renderer": "16.5.1"
+    }
+}
